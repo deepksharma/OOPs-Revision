@@ -8,7 +8,7 @@ class MyThread extends Thread{
     }
 }
 
-public class Practice {
+public class PracticeExtending {
     public static void main(String[] args) {
         MyThread thread = new MyThread();
         thread.run();  // This does not start a new thread.It just calls the run() method like a normal method — on the main thread
